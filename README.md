@@ -4,6 +4,17 @@
 
 "Portfolio-Test-Automator" is a Selenium-based testing framework using Behave for behavior-driven development. This project focuses on automating functional tests for a web-based trading platform, specifically covering user authentication, stock transactions, and validation of transaction confirmations.
 
+## Status of Implementation
+
+- ✅ **Completed**: Engineered a functional testing framework using PyTest and Behave for buying, selling, and updating stock portfolio.
+- 🚧 **In Progress**: Developed CI/CD pipelines with Jenkins, streamlining test automation with webhooks to trigger tests on new commits.
+- ✅ **Completed**: Integrated with cross-platform testing solutions using BrowserStack, ensuring that the tests run on cross-browser OS.
+- Browsers tested so far:
+  - **Safari 15.6** on **OS X Monterey**
+  - **Chrome 125.0** on **Windows 10**
+
+![Test Environment](images/CrossBrowserBuild.png)
+
 ## Setup
 
 1. **Environment Variables**: Define variables like `USER_NAME`, `PASSWORD`, `LOGIN_URL`, etc., in your environment for secure access.
