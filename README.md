@@ -37,4 +37,4 @@ Incorporate `WebDriverWait` for dynamic content handling, and manage exceptions 
 
 ## Conclusion
 
-The "Portfolio-Test-Automator" project efficiently handles critical functionalities of a trading platform, ensuring that key features like login and stock transactions are functioning as expected through automated tests. Test1
+The "Portfolio-Test-Automator" project efficiently handles critical functionalities of a trading platform, ensuring that key features like login and stock transactions are functioning as expected through automated tests. Test2
