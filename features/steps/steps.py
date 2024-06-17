@@ -10,8 +10,8 @@ import os
 load_dotenv()
 USER_NAME = os.getenv("USER_NAME")   
 PASSWORD = os.getenv("PASSWORD") 
-LOGIN_URL = os.getenv("LOGIN_URL")
-CHROMEDRIVER_PATH = os.getenv("CHROMEDRIVER_PATH")
+LOGIN_URL = "https://app.alpaca.markets/account/login"
+CHROMEDRIVER_PATH = ".\chromedriver.exe"
 DASHBOARD_URL = os.getenv("DASHBOARD_URL")
 
 # Navigate to the login page
