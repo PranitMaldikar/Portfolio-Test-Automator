@@ -23,7 +23,7 @@ pipeline {
                     sh 'export USER_NAME=$USER_NAME'
                     sh 'export PASSWORD=$PASSWORD'
                     sh 'export DASHBOARD_URL=$DASHBOARD_URL'
-                    sh 'browserstack-sdk behave features/stockTransaction.feature'
+                    sh 'behave'
                 }
             }
         }

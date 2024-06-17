@@ -1,6 +1,3 @@
 python-dotenv
 selenium
-pytest
-pytest-xdist
-pytest-html
 behave
